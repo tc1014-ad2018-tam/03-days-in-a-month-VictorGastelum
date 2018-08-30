@@ -52,7 +52,7 @@ int main(){
 	                printf("The month has 29 days \n");
 					
 				    //If it's not a Leap-Year
-					else{
+					}else{
 		            printf("The month has 28 days \n");	
 		}
     }
@@ -61,15 +61,15 @@ int main(){
 	else{
 		printf("Error 404 :(, that's an invalid number");
 	}
-    }
+    
     
     //This will detect if it's a leap year or not
     if(year%4==0){
     	printf("The year has 366 days \n");
     	
-    	else{
+    	}else{
     		printf("The year has 365 days \n");
 		}
-	}
+	
 return 0;
 }
